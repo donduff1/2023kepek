@@ -1,0 +1,33 @@
+.thumbnail{
+    width: 100px;
+    height: 100px;
+}
+.kep{
+    width: 300px;
+    height: 300px;
+}
+.images{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+.tape{
+    width: 300px;
+    position: relative;
+}
+.arrows{
+    position: absolute;
+    top: 47px;
+    background-color: rgba(255,255,255,.6);
+    border-radius: 60%;
+    padding: 5px;
+    margin: 0;
+}
+.arrows.forward{
+    color: red;
+    left: 0;
+}
+.arrows.backward{
+    color: red;
+    right: 0;
+}
